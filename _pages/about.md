@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Oneul Code - 블로그 개설"
+title: "Oneul Code - About Me"
 permalink: /about/
 ---
 
-# 🎉Oneul Code🎉
+  
 
 # About Me. 
 
