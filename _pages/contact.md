@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: 연락하기
 permalink: /contact/
 ---

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+</head>
+<body>
+  <div class="container">
+    <!-- 사이드바 -->
+    <aside class="sidebar">
+  <h1 class="site-title">{{ site.title }}</h1>
+  <nav>
+    <ul>
+      <li>
+        <a href="{{ '/' | relative_url }}" 
+           class="{% if page.url == '/' %}active{% endif %}">홈</a>
+      </li>
+      <li>
+        <a href="{{ '/about/' | relative_url }}" 
+           class="{% if page.url == '/about/' %}active{% endif %}">소개</a>
+      </li>
+      <li>
+        <a href="{{ '/dev/' | relative_url }}" 
+           class="{% if page.url == '/dev/' %}active{% endif %}">오늘의 코딩</a>
+      </li>
+      <li>
+        <a href="{{ '/portfolio/' | relative_url }}" 
+           class="{% if page.url == '/portfolio/' %}active{% endif %}">프로젝트</a>
+      </li>
+      <li>
+        <a href="{{ '/archive/' | relative_url }}" 
+           class="{% if page.url == '/archive/' %}active{% endif %}">아카이브</a>
+      </li>
+      <li>
+        <a href="{{ '/contact/' | relative_url }}" 
+           class="{% if page.url == '/contact/' %}active{% endif %}">연락하기</a>
+      </li>
+    </ul>
+  </nav>
+</aside>
+
+
+    <!-- 메인 콘텐츠 -->
+    <main class="main-content">
+      <h1>{{ page.title }}</h1>
+      <div class="page-body">
+        {{ content }}
+      </div>
+      <footer>
+        <p>© 2025 {{ site.title }}</p>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

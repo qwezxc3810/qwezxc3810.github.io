@@ -4,9 +4,7 @@ title: "Oneul Code - About Me"
 permalink: /about/
 ---
 
-  
-
-# About Me. 
+# About Me.
 
 ✨안녕하세요. 개발 기록 블로그 **Oneul Code**입니다.✨
 
