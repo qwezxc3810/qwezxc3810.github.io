@@ -1,0 +1,106 @@
+# =========================================
+# Just the Docs 블로그 설정: Oneul Code
+# =========================================
+
+# Theme Settings
+remote_theme: pmarsceill/just-the-docs
+
+# Site Settings
+locale: "ko-KR"
+title: "Oneul Code" # 사이트 이름
+title_separator: " - " # 브라우저 탭에서 페이지 제목과 구분
+masthead_title: "Oneul Code" # 헤더 제목
+subtitle: "오늘의 코딩 기록" # 헤더 부제목
+description: "하루하루 코딩을 기록하는 개발 블로그입니다."
+url: "https://qwezxc3810.github.io" # ✅ 올바른 URL
+baseurl: "" # 저장소 이름 있으면 /repo-name
+repository: "https://github.com/qwezxc3810/qwezxc3810.github.io" # GitHub repo
+
+# Author Settings
+author:
+  name: "이상민"
+  bio: "코드라는 씨앗을 심었더니 잡초만 무성한 이상한 개발자."
+  location: "서울, 대한민국"
+  email: "qwezxc3810@gmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:qwezxc3810@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/qwezxc3810"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/username"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
+
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/qwezxc3810"
+  since: "2025"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - node_modules
+  - Gemfile
+  - package.json
+  - package-lock.json
+  - README
+  - config
+
+keep_files:
+  - .git
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Markdown Processing
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  toc_levels: 1..6
+
+# Outputting
+permalink: /:categories/:title/
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
