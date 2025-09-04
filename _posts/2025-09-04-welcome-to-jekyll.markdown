@@ -1,29 +1,14 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2025-09-04 16:00:36 +0900
-categories: jekyll update
+title: "Oneul Code - 블로그 개설"
+date: 2025-09-04 16:00:00 +0900
+categories: dev
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+🎉 블로그 개설 완료 🎉
 
-`YEAR-MONTH-DAY-title.MARKUP`
+이 블로그는 개발 과정에서 마주한 **작은 코드, 실수, 에러, 그리고 공부한 과정**까지 모두 기록하는 공간입니다.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+하루에 하나씩, 작더라도 의미 있는 코드를 기록하며 **조금씩 다듬고 성장해 나가는 과정**을 보여주고자 합니다.
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+앞으로 매일 하나씩 기록하며 성장하는 과정을 공유하겠습니다.
