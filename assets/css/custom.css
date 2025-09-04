@@ -1,0 +1,24 @@
+/* 헤더 글자 색상 */
+.masthead-title, .masthead-subtitle {
+  color: #ffffff; /* 흰색 글씨 */
+}
+
+/* 사이드바 배경색 */
+.sidebar {
+  background-color: #1a1a1a; /* 어두운 회색 */
+}
+
+/* 링크 색상 */
+a {
+  color: #BFC68A; /* 밝은 카키 */
+}
+
+a:hover {
+  color: #ffffff; /* 마우스 오버 시 흰색 */
+}
+
+/* 액티브 메뉴 강조 */
+.sidebar a.active {
+  color: #BFC68A !important;
+  font-weight: bold;
+}

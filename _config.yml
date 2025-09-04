@@ -5,6 +5,13 @@
 # Theme Settings
 remote_theme: pmarsceill/just-the-docs
 
+# 사이트 기본 색상
+theme_color: "black"       # 메인 색상: 검정
+brand_color: "#BFC68A"     # 강조/액티브 색상: 밝은 카키
+
+stylesheets:
+  - "/assets/css/custom.css"
+
 # Site Settings
 locale: "ko-KR"
 title: "Oneul Code" # 사이트 이름
