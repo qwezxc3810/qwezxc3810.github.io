@@ -10,7 +10,7 @@ theme_color: "black"       # 메인 색상: 검정
 brand_color: "#BFC68A"     # 강조/액티브 색상: 밝은 카키
 
 stylesheets:
-  - "/assets/css/custom.css"
+  - "assets/css/custom.css"
 
 # Site Settings
 locale: "ko-KR"

@@ -1,5 +1,6 @@
 /* 헤더 글자 색상 */
-.masthead-title, .masthead-subtitle {
+.masthead-title,
+.masthead-subtitle {
   color: #ffffff; /* 흰색 글씨 */
 }
 
@@ -10,7 +11,7 @@
 
 /* 링크 색상 */
 a {
-  color: #BFC68A; /* 밝은 카키 */
+  color: #bfc68a; /* 밝은 카키 */
 }
 
 a:hover {
@@ -19,6 +20,90 @@ a:hover {
 
 /* 액티브 메뉴 강조 */
 .sidebar a.active {
-  color: #BFC68A !important;
+  color: #bfc68a !important;
   font-weight: bold;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007acc;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.posts li {
+  margin-bottom: 10px;
+}
+
+.date {
+  color: gray;
+  font-size: 0.9em;
+  margin-left: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 0.8em;
+  color: #555;
+}
+
+.post-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-card {
+  padding: 15px 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.post-card h3 {
+  margin: 0 0 10px 0;
+}
+
+.post-card .date {
+  font-size: 0.85em;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.post-card .excerpt {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.post-card .read-more {
+  text-decoration: none;
+  color: #007acc;
+  font-weight: bold;
+}
+
+.post-card .read-more:hover {
+  text-decoration: underline;
 }
