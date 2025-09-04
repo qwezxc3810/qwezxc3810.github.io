@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+</head>
+<body>
+  <div class="container">
+    <!-- 사이드바 -->
+    <aside class="sidebar">
+      <h1 class="site-title">{{ site.title }}</h1>
+      <nav>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">홈</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">소개</a></li>
+          <li><a href="{{ '/dev/' | relative_url }}">오늘의 코딩</a></li>
+          <li><a href="{{ '/portfolio/' | relative_url }}">프로젝트</a></li>
+          <li><a href="{{ '/archive/' | relative_url }}">아카이브</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}">연락하기</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- 메인 콘텐츠 -->
+    <main class="main-content">
+      {{ content }}
+    </main>
+  </div>
+
+  <footer>
+    <p>© 2025 {{ site.title }}</p>
+  </footer>
+</body>
+</html>
