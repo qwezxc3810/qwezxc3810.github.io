@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Oneul Code - 01.블로그 개설"
+title: "Oneul Code - 00.블로그 개설"
 date: 2025-09-04 16:00:00 +0900
 categories: dev
 ---
