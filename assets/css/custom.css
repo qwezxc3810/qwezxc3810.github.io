@@ -179,11 +179,23 @@ footer {
 }
 
 /* 리스트 스타일 개선 */
-.post-content ul,
+.post-content ul {
+  margin-bottom: 1.2em;
+  padding-left: 2em;
+  line-height: 1.8;
+  list-style-type: disc;
+}
+
 .post-content ol {
   margin-bottom: 1.2em;
   padding-left: 2em;
   line-height: 1.8;
+  list-style-type: decimal;
+  counter-reset: item;
+}
+
+.post-content ol li {
+  display: list-item;
 }
 
 .post-content li {
